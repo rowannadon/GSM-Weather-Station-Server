@@ -1,0 +1,147 @@
+body {
+	background-color: #1a1a1d;
+	font-family: Arial, Helvetica, sans-serif;
+	display:flex;
+	align-items: center;
+	justify-content: center;
+}
+
+.flex-container {
+	background-color: #1a1a1d;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	flex-direction: column;
+	flex-wrap: nowrap;
+	width: 100%;
+	height: 100%;
+}
+
+.center {
+	display: flex;
+	width: 90%;
+
+	justify-content:top;
+	flex-direction: column;
+	align-items: center;
+	flex-wrap: nowrap;
+	background-color: #4e4e50;
+}
+
+.buttons {
+	background-color: #4e4e50;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	padding: 10px;
+}
+
+.info {
+	display: flex;
+	flex-direction: column;
+	width: 95%;
+}
+
+.info-text {
+	padding: 10px;
+	margin: auto;
+	color: black;
+	width: 95%;
+}
+
+.desc {
+	text-align: left;
+	width: 100%;
+	display: flex;
+	color: white;
+}
+
+.data {
+	display:flex;
+	flex-direction: column;
+	flex-wrap: nowrap;
+	align-items: center;
+	justify-content:center;
+	text-align: left;
+	padding: 10px;
+	width: 90.2%;
+}
+
+button {
+	background-color: #C3073F;
+	border: none;
+	color: white;
+	height: 40px;
+	padding-left: 20px;
+	padding-right: 20px;
+	text-align: center;
+	text-decoration: none;
+	font-size: 16px;
+	margin: 10px;
+}
+
+button:hover {
+	background-color: #f5f5f5;
+	color: black;
+}
+
+table {
+	border-collapse: collapse;
+	width: 100%;
+	text-align: center;
+	transition-duration: 0.4s;
+}
+  
+table, th, td {
+
+}
+
+th, tr {
+	height: 40px;
+	background-color: rgb(150, 150, 150);
+}
+
+th {
+	background-color: #C3073F;
+	color: white;
+}
+
+tr:nth-child(even) {
+	background-color: #727272;
+}
+
+tr:hover, th:hover {
+	background-color: #f5f5f5;
+}
+
+th:hover {
+	color: black;
+}
+
+h1 {
+	color: #C3073F;
+	font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+	-webkit-text-stroke: 2px white;
+	font-size: 40px;
+}
+
+p {
+	color: white;
+}
+
+.images {
+	display: flex;
+	flex: 1;
+	flex-direction: row;
+	flex-wrap: nowrap;
+}
+
+img {
+	height: 175px;
+	margin: 20px;
+	border: 3px solid black;
+}
+
+li {
+	color: white;
+}
